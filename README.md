@@ -1,24 +1,49 @@
-# vue-image-zoom
+# vue-zooming-image
+A simple vue component to hold an image which will zoom towards the position of the cursor. Originally written to hold preview thumbnails in conjunction with a lightbox.
 
-## Project setup
-```
-npm install
-```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Demo
+[vue-zooming-image Demo](https://marctr.github.io/vue-zooming-image/)
 
-### Compiles and minifies for production
+## Installation via NPM
 ```
-npm run build
+npm i vue-zooming-image
 ```
 
-### Lints and fixes files
+## Usage
 ```
-npm run lint
+<template>
+  <div id="app">
+    <ZoomingImage 
+      src="./image.png"
+      width="375px"
+      height="250px"> 
+      <div>Overlay content</div>
+    </ZoomingImage>
+  </div>
+</template>
+
+<script>
+import ZoomingImage from 'vue-zooming-image'
+
+export default {
+  name: 'App',
+  components: {
+    ZoomingImage
+  }
+}
+</script>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Options
+
+### Props
+|Prop         | Description                       |
+|-------------|-----------------------------------|
+|src          | Path to the image to display      |
+|width        | width of the image (in pixels)    |
+|height       | height of the image (in pixels)   | 
+
+
+### Slots
+The component provides a single, unnamed slot as an overlay for the image.
