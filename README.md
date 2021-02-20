@@ -1,4 +1,14 @@
 # vue-zooming-image
+
+<div align="center">
+
+![javascript](https://img.shields.io/badge/Javascript-F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=222222)
+![vuejs](https://img.shields.io/badge/vue.js-4FC08D.svg?style=for-the-badge&logo=Vue.js&logoColor=ffffff)
+![downloadsPerYear](https://img.shields.io/npm/dy/vue-zooming-image?style=for-the-badge)
+![license](https://img.shields.io/npm/l/vue-zooming-image?style=for-the-badge)
+
+</div>
+
 A simple vue component to hold an image which will zoom towards the position of the cursor. Originally written to hold preview thumbnails in conjunction with a lightbox.
 
 
