@@ -16,12 +16,12 @@ A simple vue component to hold an image which will zoom towards the position of 
 [vue-zooming-image Demo](https://marctr.github.io/vue-zooming-image/)
 
 ## Installation via NPM
-```
+```shell
 npm i vue-zooming-image
 ```
 
 ## Usage
-```
+```vue
 <template>
   <div id="app">
     <ZoomingImage 
